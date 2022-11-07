@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="libs/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
@@ -41,35 +42,40 @@
             </div>
         </section>
         <section class="project">
-            <div class="container project__container">
-                <div class="project__info">
-                    <h2 class="project__title">
-                        Оказываем содействие семьям с&nbsp;детьми с&nbsp;ОВЗ
-                    </h2>
-                    <p class="project__descr">Сообща мы&nbsp;поздравляем с&nbsp;важным событием
-                        в&nbsp;жизни ребёнка&nbsp;&mdash; дарим подарок на&nbsp;день рождения
-                        праздничный Торт.</p>
-                    <a href="#" class="project__link">Хочу узнать больше</a>
-                    <h3 class="project__subtitle">
-                        КАК ЭТО РАБОТАЕТ?
-                    </h3>
-                    <p class="project__descr">Вы&nbsp;можете поздравить ребёнка с&nbsp;днём рождения,
-                        заказав для него торт. Отзыв о&nbsp;подарке Вам придёт
-                        на&nbsp;почту.<br> <br>
-                        Каждый кондитер может стать волшебником
-                        для ребёнка.</p>
-                    <div class="project__btn">
-                        <button class="project__btn-gift btn-reset">
-                            Хочу подарить
-                        </button>
-                        <button class="project__btn-entrance btn-reset">
-                            Вход для родителя
-                        </button>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="project__info w-100">
+                            <h2 class="project__title">
+                                Оказываем содействие семьям с&nbsp;детьми с&nbsp;ОВЗ
+                            </h2>
+                            <p class="project__descr">Сообща мы&nbsp;поздравляем с&nbsp;важным событием
+                                в&nbsp;жизни ребёнка&nbsp;&mdash; дарим подарок на&nbsp;день рождения
+                                праздничный Торт.</p>
+                            <a href="#" class="project__link">Хочу узнать больше</a>
+                            <h3 class="project__subtitle">
+                                КАК ЭТО РАБОТАЕТ?
+                            </h3>
+                            <p class="project__descr">Вы&nbsp;можете поздравить ребёнка с&nbsp;днём рождения,
+                                заказав для него торт. Отзыв о&nbsp;подарке Вам придёт
+                                на&nbsp;почту.<br> <br>
+                                Каждый кондитер может стать волшебником
+                                для ребёнка.</p>
+                            <div class="project__btn">
+                                <button class="project__btn-gift btn-reset">
+                                    Хочу подарить
+                                </button>
+                                <button class="project__btn-entrance btn-reset">
+                                    Вход для родителя
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="project__img">
-                    <img src="img/project-img.jpg" alt="" class="project-img">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="project__img w-100">
+                            <img src="img/project-img.jpg" alt="" class="project-img">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -162,35 +168,43 @@
         </section>
         <section class="entry-form">
             <div class="container entry-form__container">
+                
                 <h2 class="entry-form__title">
                     Начните помогать прямо сейчас
                 </h2>
                 <div class="entry-form__content">
-                    <div class="entry-form__left">
-                        <img src="img/entry-form-img.jpg" alt="" class="entry-form__img">
-                    </div>
-                    <div class="entry-form__right">
-                        <div class="entry-form__right-content">
-                            <h3 class="entry-form__subtitle">Пароль</h3>
-                            <form action="" class="entry-form__regist">
-                                <label class="entry-form__label">
-                                    <input class="input-tel input-style" type="tel" name="phone"
-                                        placeholder="Номер телефона">
-                                </label>
-                                <label class="entry-form__label">
-                                    <input class="input-password input-style" type="password" name="password"
-                                        placeholder="Пароль">
-                                </label>
-                            </form>
-                            <div class="recover-password">Забыли пароль?
-                                <a href="#" class="recover-password__link">Восстановить</a>
+                    <div class="row g-0">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="entry-form__left w-100 h-100">
+                                <img src="img/entry-form-img.jpg" alt="" class="entry-form__img">
                             </div>
-                            <button class="entry-form__btn btn-reset">Войти</button>
-                            <div class="register-account">
-                                Нет аккаунта? <a href="" class="register-account__link">Зарегистрироваться</a>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="entry-form__right w-100 h-100">
+                                <div class="entry-form__right-content">
+                                    <h3 class="entry-form__subtitle">Пароль</h3>
+                                    <form action="" class="entry-form__regist">
+                                        <label class="entry-form__label">
+                                            <input class="input-tel input-style" type="tel" name="phone"
+                                                placeholder="Номер телефона">
+                                        </label>
+                                        <label class="entry-form__label">
+                                            <input class="input-password input-style" type="password" name="password"
+                                                placeholder="Пароль">
+                                        </label>
+                                    </form>
+                                    <div class="recover-password">Забыли пароль?
+                                        <a href="#" class="recover-password__link">Восстановить</a>
+                                    </div>
+                                    <button class="entry-form__btn btn-reset">Войти</button>
+                                    <div class="register-account">
+                                        Нет аккаунта? <a href="" class="register-account__link">Зарегистрироваться</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
 
                 </div>
             </div>
@@ -283,20 +297,37 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container footer__container">
-            <a href="#" class="footer__logo" tabindex="-1">
-                <img src="img/footer-logo.svg" alt="" class="footer-logo">
-            </a>
-            <div class="footer__info">
-                <a href="" class="footer__info-link">Часто задаваемые вопросы</a>
-                <a href="" class="footer__info-link">Документы и&nbsp;соглашения</a>
-                <a href="" class="footer__info-link">Команда</a>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-3">
+                            <a href="#" class="footer__logo" tabindex="-1">
+                                <img src="img/footer-logo.svg" alt="" class="footer-logo">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-lg">
+                            <div class="footer__info">
+                                <a href="" class="footer__info-link">Часто задаваемые вопросы</a>
+                                <a href="" class="footer__info-link">Документы и&nbsp;соглашения</a>
+                                <a href="" class="footer__info-link">Команда</a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="application">
+                        <span class="application__text">Скачивайте наше приложение
+                            и&nbsp;совершайте добро в&nbsp;удобное время!</span>
+                        <a href="help-child.html" class="application__link">Ссылка</a>
+                    </div>
+                </div>
             </div>
-            <div class="application">
-                <span class="application__text">Скачивайте наше приложение
-                    и&nbsp;совершайте добро в&nbsp;удобное время!</span>
-                <a href="help-child.html" class="application__link">Ссылка</a>
-            </div>
+            
+            
         </div>
         
     </footer>
