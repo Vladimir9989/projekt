@@ -7,26 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>confectionery</title>
     <link rel="stylesheet" href="css/confectionery.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container header__container">
-            <a href="#" class="header__logo">
-                <img src="img/Logo.svg" alt="" class="logo-img">
-            </a>
-            <div class="header__menu">
-                <div class="header__info">
-                    <button class="header__btn-region btn-reset header-btn-style">Ваш регион - <span
-                            class="header__btn-region_sochi">Сочи</span></button>
-                    <a href="tel:+74951233445" class="header__tel header-btn-style">+7 495 123-34-45</a>
-                </div>
-                <div class="header__regist">
-                    <button class="header__btn-entrance btn-reset header-btn-style">Вход</button>
-                    <button class="header__btn-regist btn-reset header-btn-style">Регистрация</button>
-                </div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"> <img src="img/Logo.svg" alt="" class="logo-img"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Ваш регион Сочи</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">+7 495 123-34-45</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Вход</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Регистрация</a>
+                  </li>
+                </ul>          
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
     <main class="main">
         <section class="catalog">
@@ -34,30 +45,39 @@
                 <h2 class="confectionery__title">Выберите кондитерское изделие</h2>
                 <div class="confectionery__subtitle">Категории тортов</div>
                 <div class="confectionery__descr">Премиум</div>
-                <ul class="confectionery__premium list-reset">
-                    <li class="confectionery__premium-item">
-                        <img class="confectionery__img" src="img/cake/cake-img-1.jpg" alt="Фото торта">
-                        <div class="confectionery__info">
-                            <div class="confectionery__name">Шоколадно-карамельный</div>
-                            <div class="confectionery__wt">1,2-1,5 кг</div>
-                            <div class="confectionery__sum">
-                                <div class="confectionery__price">4 620 руб.</div>
-                                <button class="confectionery__btn btn-reset">Заказать</button>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="confectionery__premium-item">
-                        <img class="confectionery__img" src="img/cake/cake-img-2.jpg" alt="Фото торта">
-                        <div class="confectionery__info">
-                            <div class="confectionery__name">Черёмуховый</div>
-                            <div class="confectionery__wt">1,2-1,5 кг</div>
-                            <div class="confectionery__sum">
-                                <div class="confectionery__price">4 620 руб.</div>
-                                <button class="confectionery__btn btn-reset">Заказать</button>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                
+                    <ul class="confectionery__premium list-reset">
+                        
+                            <li class="confectionery__premium-item">
+                                <img class="confectionery__img" src="img/cake/cake-img-1.jpg" alt="Фото торта">
+                                <div class="confectionery__info">
+                                    <div class="confectionery__name">Шоколадно-карамельный</div>
+                                    <div class="confectionery__wt">1,2-1,5 кг</div>
+                                    <div class="confectionery__sum">
+                                        <div class="confectionery__price">4 620 руб.</div>
+                                        <button class="confectionery__btn btn-reset">Заказать</button>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                        
+                            <li class="confectionery__premium-item">
+                                <img class="confectionery__img" src="img/cake/cake-img-2.jpg" alt="Фото торта">
+                                <div class="confectionery__info">
+                                    <div class="confectionery__name">Черёмуховый</div>
+                                    <div class="confectionery__wt">1,2-1,5 кг</div>
+                                    <div class="confectionery__sum">
+                                        <div class="confectionery__price">4 620 руб.</div>
+                                        <button class="confectionery__btn btn-reset">Заказать</button>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                        
+                        
+                    </ul>
+                
+                
                 <div class="confectionery__descr">Оптимальные</div>
                 <ul class="confectionery__optimal list-reset">
                     <li class="confectionery__optimal-item">
@@ -233,24 +253,45 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container footer__container">
-            <a href="#" class="footer__logo" tabindex="-1">
-                <img src="img/footer-logo.svg" alt="" class="footer-logo">
-            </a>
-            <div class="footer__info">
-                <a href="" class="footer__info-link">Часто задаваемые вопросы</a>
-                <a href="" class="footer__info-link">Документы и&nbsp;соглашения</a>
-                <a href="" class="footer__info-link">Команда</a>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-3">
+                            <a href="#" class="footer__logo" tabindex="-1">
+                                <img src="img/footer-logo.svg" alt="" class="footer-logo">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-lg">
+                            <div class="footer__info">
+                                <a href="" class="footer__info-link">Часто задаваемые вопросы</a>
+                                <a href="" class="footer__info-link">Документы и&nbsp;соглашения</a>
+                                <a href="" class="footer__info-link">Команда</a>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                    
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <a href="bank.html" class="footer__info-link">Электронная платёжная система</a>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="application">
+                        <span class="application__text">Скачивайте наше приложение
+                            и&nbsp;совершайте добро в&nbsp;удобное время!</span>
+                        <a href="help-child.html" class="application__link">Ссылка</a>
+                    </div>
+                </div>
             </div>
-            <div class="application">
-                <span class="application__text">Скачивайте наше приложение
-                    и&nbsp;совершайте добро в&nbsp;удобное время!</span>
-                <a href="#" class="application__link">Ссылка</a>
-            </div>
+            
+            
         </div>
         
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 
 </html>

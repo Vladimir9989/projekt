@@ -1,8 +1,8 @@
-.container {
+/* .confectionery {
     max-width: 1310px;
     padding: 0 15px;
     margin: 0 auto;
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -75,7 +75,6 @@ body {
 }
 
 .header__container {
-    
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
@@ -86,7 +85,8 @@ body {
 .header__menu {
     color: #161616;
     font-weight: 400;
-    font-size: 20px
+    font-size: 20px;
+    justify-content: flex-end;
 }
 
 .header__btn-region {
@@ -163,6 +163,9 @@ body {
     margin-bottom: 32px;
 }
 
+.confectionery__premium-item {
+    min-height: 385px;
+}
 
 
 .confectionery__optimal,
@@ -171,6 +174,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 .confectionery__premium-item,
@@ -191,12 +196,16 @@ body {
 }
 
 .confectionery__info {
+    display: flex;
+    flex-direction: column;
+    min-height: 266px;
     padding: 20px;
 }
 
 .confectionery__name {
     font-size: 20px;
     margin-bottom: 32px;
+    flex: 1;
 }
 
 .confectionery__wt {
@@ -222,6 +231,7 @@ body {
     border-radius: 10px;
     color: #fff; 
     padding: 15px 78px;
+    margin-bottom: auto;
 }
 /* location */
 

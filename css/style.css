@@ -260,6 +260,8 @@ body {
 }
 
 .project__btn-gift {
+    display: block;
+    text-align: center;
     color: #fff;
     font-weight: 700;
     font-size: 16px;
@@ -291,6 +293,8 @@ body {
 }
 
 .project__btn-entrance {
+    display: block;
+    text-align: center;
     color: #006095;
     font-size: 16px;
     font-weight: 700;
